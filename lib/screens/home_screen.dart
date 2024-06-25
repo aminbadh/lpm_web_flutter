@@ -1,8 +1,9 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
-import 'package:lpm_main/components/bottom_banner.dart';
-import 'package:lpm_main/components/new_page.dart';
+
+import '../components/bottom_banner.dart';
+import '../components/new_page.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);

@@ -1,17 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:lpm_main/screens/not_found_screen.dart';
-
-import 'configure_nonweb.dart' if (dart.library.html) 'configure_web.dart';
 import 'screens/articles_screen.dart';
 import 'screens/clubs_screen.dart';
 import 'screens/home_screen.dart';
 
 void main() {
-  configureApp();
-
   runApp(
     MaterialApp(
-      debugShowCheckedModeBanner: false,
       title: "LPM - Lycée Pilote Mohammed Fredj Chedhly Monastir",
       initialRoute: '/',
       onGenerateRoute: (RouteSettings settings) {

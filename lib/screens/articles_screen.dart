@@ -1,7 +1,8 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
-import 'package:lpm_main/components/new_page.dart';
+
+import '../components/new_page.dart';
 
 class ArticlesScreen extends StatelessWidget {
   const ArticlesScreen({Key? key}) : super(key: key);
