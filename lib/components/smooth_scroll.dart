@@ -22,13 +22,13 @@ class SmoothScrollWeb extends StatelessWidget {
 
   double _scroll = 0;
 
-  SmoothScrollWeb({
+  SmoothScrollWeb({Key? key, 
     required this.controller,
     required this.child,
     this.scrollSpeed = DEFAULT_SCROLL_SPEED,
     this.scrollAnimationLength = DEFAULT_NORMAL_SCROLL_ANIMATION_LENGTH_MS,
     this.curve = Curves.linear,
-  });
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

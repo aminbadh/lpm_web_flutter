@@ -120,13 +120,13 @@ class _HomeScreenState extends State<HomeScreen> {
                         ],
                       ),
                     ),
-                    Container(
+                    SizedBox(
                       // color: _color.withOpacity(0.6),
                       height: constraints.maxHeight + 4,
                       child: Column(
                         children: [
-                          SizedBox(height: 36),
-                          Text(
+                          const SizedBox(height: 36),
+                          const Text(
                             "Notre Etablissement",
                             textAlign: TextAlign.center,
                             style: TextStyle(
@@ -135,16 +135,16 @@ class _HomeScreenState extends State<HomeScreen> {
                               letterSpacing: 1,
                             ),
                           ),
-                          SizedBox(height: 46),
+                          const SizedBox(height: 46),
                           Row(
                             children: [
                               SizedBox(width: constraints.maxWidth / 20),
                               SizedBox(
                                 height: constraints.maxHeight / 2.8,
                                 width: constraints.maxWidth / 3,
-                                child: Placeholder(),
+                                child: const Placeholder(),
                               ),
-                              SizedBox(width: 36),
+                              const SizedBox(width: 36),
                               Expanded(
                                   child: Container(
                                       height: constraints.maxHeight / 2.8,
@@ -153,7 +153,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               SizedBox(width: constraints.maxWidth / 20),
                             ],
                           ),
-                          SizedBox(height: 46),
+                          const SizedBox(height: 46),
                           Row(
                             children: [
                               SizedBox(width: constraints.maxWidth / 20),
@@ -162,11 +162,11 @@ class _HomeScreenState extends State<HomeScreen> {
                                       height: constraints.maxHeight / 2.8,
                                       color: Colors.grey.shade300
                                           .withOpacity(0.3))),
-                              SizedBox(width: 36),
+                              const SizedBox(width: 36),
                               SizedBox(
                                 height: constraints.maxHeight / 2.8,
                                 width: constraints.maxWidth / 3,
-                                child: Placeholder(),
+                                child: const Placeholder(),
                               ),
                               SizedBox(width: constraints.maxWidth / 20),
                             ],
@@ -174,13 +174,13 @@ class _HomeScreenState extends State<HomeScreen> {
                         ],
                       ),
                     ),
-                    Container(
+                    SizedBox(
                       // color: _color.withOpacity(0.3),
                       height: constraints.maxHeight + 4,
                       child: Column(
                         children: [
-                          SizedBox(height: 36),
-                          Text(
+                          const SizedBox(height: 36),
+                          const Text(
                             "Notre Etablissement",
                             textAlign: TextAlign.center,
                             style: TextStyle(
@@ -189,16 +189,16 @@ class _HomeScreenState extends State<HomeScreen> {
                               letterSpacing: 1,
                             ),
                           ),
-                          SizedBox(height: 46),
+                          const SizedBox(height: 46),
                           Row(
                             children: [
                               SizedBox(width: constraints.maxWidth / 20),
                               SizedBox(
                                 height: constraints.maxHeight / 2.8,
                                 width: constraints.maxWidth / 3,
-                                child: Placeholder(),
+                                child: const Placeholder(),
                               ),
-                              SizedBox(width: 36),
+                              const SizedBox(width: 36),
                               Expanded(
                                   child: Container(
                                       height: constraints.maxHeight / 2.8,
@@ -207,7 +207,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               SizedBox(width: constraints.maxWidth / 20),
                             ],
                           ),
-                          SizedBox(height: 46),
+                          const SizedBox(height: 46),
                           Row(
                             children: [
                               SizedBox(width: constraints.maxWidth / 20),
@@ -216,11 +216,11 @@ class _HomeScreenState extends State<HomeScreen> {
                                       height: constraints.maxHeight / 2.8,
                                       color: Colors.grey.shade300
                                           .withOpacity(0.3))),
-                              SizedBox(width: 36),
+                              const SizedBox(width: 36),
                               SizedBox(
                                 height: constraints.maxHeight / 2.8,
                                 width: constraints.maxWidth / 3,
-                                child: Placeholder(),
+                                child: const Placeholder(),
                               ),
                               SizedBox(width: constraints.maxWidth / 20),
                             ],
