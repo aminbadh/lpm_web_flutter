@@ -20,7 +20,7 @@ class _MainAppBarState extends State<MainAppBar> {
         Align(
           alignment: Alignment.topCenter,
           child: Material(
-            color: Colors.white, //const Color(0xFF191919)
+            color: Colors.white,
             elevation: 4,
             child: SizedBox(
               height: 56,
@@ -30,9 +30,6 @@ class _MainAppBarState extends State<MainAppBar> {
                   SizedBox(
                     height: 46,
                     child: InkWell(
-                      // splashColor: Colors.transparent,
-                      // hoverColor: Colors.transparent,
-                      // highlightColor: Colors.transparent,
                       child: Padding(
                         padding: const EdgeInsets.all(4),
                         child: Container(
@@ -224,79 +221,12 @@ class _MainAppBarState extends State<MainAppBar> {
                               if (selectedValue != null) {
                                 Navigator.of(context).pushNamed(selectedValue);
                               }
-                              // if (Navigator.canPop(context)) {
-                              //   Navigator.pop(context);
-                              // }
                             },
                           );
                         },
                       );
                     }),
                   ),
-                  // Theme(
-                  //   data: Theme.of(context).copyWith(
-                  //     tooltipTheme: const TooltipThemeData(
-                  //       decoration: BoxDecoration(
-                  //         color: Colors.transparent,
-                  //       ),
-                  //     ),
-                  //   ),
-                  //   child: SizedBox(
-                  //     height: 46,
-                  //     child: PopupMenuButton(
-                  //       child: InkWell(
-                  //         child: Padding(
-                  //           padding: const EdgeInsets.symmetric(
-                  //               vertical: 4, horizontal: 18),
-                  //           child: Column(
-                  //             children: const [
-                  //               Icon(Icons.more_horiz_outlined),
-                  //               Expanded(child: SizedBox()),
-                  //               Text(
-                  //                 "More",
-                  //                 style: TextStyle(
-                  //                   fontSize: 12,
-                  //                   fontWeight: FontWeight.bold,
-                  //                 ),
-                  //               ),
-                  //             ],
-                  //           ),
-                  //         ),
-                  //         customBorder: RoundedRectangleBorder(
-                  //           borderRadius: BorderRadius.circular(8),
-                  //         ),
-                  //         onTap: () => ,
-                  //       ),
-                  //       tooltip: "",
-                  //       shape: RoundedRectangleBorder(
-                  //         borderRadius: BorderRadius.circular(8),
-                  //       ),
-                  //       itemBuilder: (BuildContext context) => <PopupMenuEntry>[
-                  //         const PopupMenuItem(
-                  //           child: ListTile(
-                  //             leading: Icon(Icons.add),
-                  //             title: Text('Item 1'),
-                  //           ),
-                  //         ),
-                  //         const PopupMenuItem(
-                  //           child: ListTile(
-                  //             leading: Icon(Icons.anchor),
-                  //             title: Text('Item 2'),
-                  //           ),
-                  //         ),
-                  //         const PopupMenuItem(
-                  //           child: ListTile(
-                  //             leading: Icon(Icons.article),
-                  //             title: Text('Item 3'),
-                  //           ),
-                  //         ),
-                  //         const PopupMenuDivider(),
-                  //         const PopupMenuItem(child: Text('Item A')),
-                  //         const PopupMenuItem(child: Text('Item B')),
-                  //       ],
-                  //     ),
-                  //   ),
-                  // ),
                   Expanded(
                     child: Padding(
                       padding: const EdgeInsets.symmetric(
@@ -383,51 +313,6 @@ class _MainAppBarState extends State<MainAppBar> {
                   SizedBox(
                     width: 112,
                     child: Builder(builder: (context) {
-                      // return Row(
-                      //   children: [
-                      //     SizedBox(
-                      //       height: 46,
-                      //       child: InkWell(
-                      //         child: Padding(
-                      //           padding: const EdgeInsets.symmetric(
-                      //               vertical: 4, horizontal: 18),
-                      //           child: Column(
-                      //             children: const [
-                      //               Icon(Icons.apps_outlined, size: 22),
-                      //               Expanded(child: SizedBox()),
-                      //               Text(
-                      //                 "Apps",
-                      //                 style: TextStyle(
-                      //                   fontSize: 12,
-                      //                   fontWeight: FontWeight.bold,
-                      //                 ),
-                      //               ),
-                      //             ],
-                      //           ),
-                      //         ),
-                      //         customBorder: RoundedRectangleBorder(
-                      //           borderRadius: BorderRadius.circular(8),
-                      //         ),
-                      //         onTap: () {},
-                      //       ),
-                      //     ),
-                      //     const SizedBox(width: 12),
-                      //     Container(
-                      //       margin: const EdgeInsets.symmetric(vertical: 2),
-                      //       width: 36,
-                      //       height: 36,
-                      //       decoration: BoxDecoration(
-                      //         color: Colors.deepOrangeAccent,
-                      //         borderRadius: BorderRadius.circular(100),
-                      //       ),
-                      //     ),
-                      //   ],
-                      // );
-
-                      // return const Center(
-                      //   child: CircularProgressIndicator(),
-                      // );
-
                       return OutlinedButton(
                         onPressed: () => setState(() => _isOpen = true),
                         style: ButtonStyle(

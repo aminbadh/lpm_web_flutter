@@ -15,7 +15,6 @@ void main() {
       title: "LPM - Lycée Pilote Mohammed Fredj Chedhly Monastir",
       initialRoute: '/',
       onGenerateRoute: (RouteSettings settings) {
-        print(settings.name);
         switch (settings.name) {
           case '/':
             return MaterialPageRoute(
